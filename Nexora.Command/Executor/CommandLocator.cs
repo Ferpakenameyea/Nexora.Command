@@ -2,7 +2,7 @@ using Nexora.Command.Tree;
 
 namespace Nexora.Command.Executor;
 
-internal class CommandLocator
+public class CommandLocator
 {
     private readonly CommandTreeNode _rootNode;
 

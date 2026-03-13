@@ -2,7 +2,7 @@ using System.Text;
 
 namespace Nexora.Command.Executor;
 
-internal class CommandLexer(string input)
+public class CommandLexer(string input)
 {
     private readonly string _input = input;
     private int _position = 0;
